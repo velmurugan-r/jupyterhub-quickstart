@@ -9,3 +9,5 @@ jupyterhub-ldapauthenticator==1.2.2
 psycopg2==2.8.4
 openshift==0.10.0
 wrapt==1.11.2
+jupyterhub-nativeauthenticator
+
