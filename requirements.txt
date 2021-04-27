@@ -1,5 +1,5 @@
 pip>=20.2.4
-kubernetes==9.0.1
+--no-binary=kubernetes==9.0.1
 --no-binary=jupyterhub==1.0.0
 #jupyterhub-kubespawner==0.10.1
 git+https://github.com/jupyterhub/kubespawner.git@a945ef01410867b39e0c174d362a8702bbaa15e9#egg=jupyterhub-kubespawner
@@ -8,6 +8,6 @@ git+https://github.com/jupyterhub/wrapspawner.git@5f2b7075f77d0c1c49066682a8e8ad
 --no-binary=oauthenticator==0.9.0
 --no-binary=jupyterhub-ldapauthenticator==1.2.2
 --no-binary=psycopg2==2.8.4
-openshift==0.10.0
+--no-binary=openshift==0.10.0
 wrapt==1.11.2
 
